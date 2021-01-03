@@ -1,7 +1,15 @@
 import './App.css';
+import { useGlobalContext } from './context';
+import Navbar from './Navbar';
+import CartContainer from './CartContainer';
 
 const App = () => {
-  return <h1>Use reducer project</h1>
+  return (
+    <main>
+      <Navbar />
+      <CartContainer />
+    </main>
+  )
 }
 
 export default App;
